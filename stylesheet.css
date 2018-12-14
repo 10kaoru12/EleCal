@@ -55,6 +55,9 @@ img {
     width: 100%;
     text-align: center;
 }
+div.law{
+    text-align: left;
+}
 div {
     text-align: center;
 }
