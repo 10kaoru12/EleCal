@@ -1,10 +1,61 @@
-img
-{
+body{
+    /*  フォントの種類  */
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+    /*  フォントのサイズ  */
+    font-size: 32px;
+
+    /*  フォントの色  */
+    color: #333;
+
+    /* カーニングの設定 */
+    letter-spacing: 1.5px;
+
+    /* 行間の設定 */
+    line-height: 1.75;
+}
+ul{
+    /*  フォントの種類  */
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+    /*  フォントのサイズ  */
+    font-size: 25px;
+
+    /*  フォントの色  */
+    color: #333;
+
+    /* カーニングの設定 */
+    letter-spacing: 1.5px;
+
+    /* 行間の設定 */
+    line-height: 1.75;
+}
+li{
+    /*  フォントの種類  */
+    font-family: -apple-system, BlinkMacSystemFont,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+
+    /*  フォントのサイズ  */
+    font-size: 25px;
+
+    /*  フォントの色  */
+    color: #333;
+
+    /* カーニングの設定 */
+    letter-spacing: 1.5px;
+
+    /* 行間の設定 */
+    line-height: 1.75;
+
+    text-align: left;
+}
+img {
     width: 100%;
     text-align: center;
 }
-div
-{
+div {
     text-align: center;
 }
 header {
@@ -23,8 +74,8 @@ header {
 /*アイコンのスペース*/
 #nav-open {
     display: inline-block;
-    width: 30px;
-    height: 22px;
+    width: 50px;
+    height: 47px;
     vertical-align: center;
     text-align: center;
 }
@@ -32,8 +83,8 @@ header {
 /*ハンバーガーアイコンをCSSだけで表現*/
 #nav-open span, #nav-open span:before, #nav-open span:after {
     position: absolute;
-    height: 3px;/*線の太さ*/
-    width: 25px;/*長さ*/
+    height: 6px;/*線の太さ*/
+    width: 40px;/*長さ*/
     border-radius: 3px;
     background: #555;
     display: block;
