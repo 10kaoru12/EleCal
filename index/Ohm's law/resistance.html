@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>EleCal.</title>
+    <link rel="stylesheet" href="resistance.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script rel="script" type="text/javascript" src="resistance.js"></script>
+</head>
+<body>
+<body class="drawer drawer--left">
+<header>
+    <button type="button" class="drawer-toggle drawer-hamburger">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+    </button>
+    <nav class="drawer-nav">
+        <ul class="drawer-menu">
+            <br>
+            <li><a href="../../index.html">トップ</a></li>
+            <br>
+            <li><a href="resistance.html">オームの法則</a></li>
+            <br>
+            <li>オームの法則（電圧）</li>
+            <br>
+            <li>オームの法則（電流）</li>
+            <br>
+            <li>コンデンサの静電容量</li>
+            <br>
+            <li>R直列・並列回路の抵抗値</li>
+            <br>
+            <li>C直列・並列回路の静電容量</li>
+            <br>
+            <li>L直列・並列回路のインダクタンス</li>
+            <br>
+            <li>RL直列回路のインピーダンス</li>
+            <br>
+            <li>RL並列回路のインピーダンス</li>
+            <br>
+        </ul>
+    </nav>
+    <object data="../../img/logo.svg" class="animated bounceInDown"></object>
+</header>
+    <h1>
+        <div>
+            <strong>
+                電圧(V)と電流(A)から抵抗(Ω)を求める
+            </strong>
+        </div>
+        <div>
+            <form oninput="o.value=a.valueAsNumber/b.valueAsNumber">
+                <label for="a">電圧(V)</label>
+                <input type="number" id="a">V /
+                <label for="a">電流(I)</label>
+                <input type="number" id="b">A =
+                <label for="o"></label>
+                <output type="number" id="o">Ω</output>
+            </form>
+        </div>
+    </h1>
+<footer>Copyright © 2018 Kaoru Ishizawa All Rights Reserved.</footer>
+</body>
+</html>
