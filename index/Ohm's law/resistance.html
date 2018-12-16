@@ -42,7 +42,7 @@
             <br>
         </ul>
     </nav>
-    <img src="../../img/logo.png" class="animated bounceInDown"/>
+    <img src="../../img/logo.png" class="animated bounceInDown" alt="ELECAL."/>
 </header>
     <h1>
         <div>
@@ -53,11 +53,18 @@
         <div class="input">
             <form oninput="o.value=a.valueAsNumber/b.valueAsNumber">
                 <label for="a">電圧(V)</label>
-                <input type="number" id="a">V /
+                <br>
+                <input style="width: 80%" placeholder="電圧" type="number" id="a">
+                <br>
                 <label for="a">電流(I)</label>
-                <input type="number" id="b">A =
+                <label for="b"></label>
+                <br>
+                <input style="width: 80%" placeholder="電流" type="number" id="b">
                 <label for="o"></label>
-                <output type="number" id="o">Ω</output>
+                <br>
+                抵抗(Ω)
+                <br>
+                <output type="number" id="o"></output> Ω
             </form>
         </div>
     </h1>
