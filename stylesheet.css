@@ -78,7 +78,7 @@ ul li:before {/*疑似要素*/
 
     color: skyblue;/*アイコン色*/
 }
-object {
+img {
     width: 100%;
 
     text-align: center;
