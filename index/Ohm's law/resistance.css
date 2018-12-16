@@ -17,10 +17,15 @@ h1{
 
     border: double;
 }
-footer{
+footer {
     font-size: small;
 
     text-align: center;
 
     padding-top: 350px;
+}
+input{
+    width: 60%;
+
+    height: 50px;
 }
